@@ -11,4 +11,11 @@ $("#guess_number").click(function(){
         alert(`Не вгадав! Було загадано число ${numberToGuess}`)
     }      
     
-})
+});
+
+$("#red_background").click(function(){
+    $("body").css({"background-color":"red"});
+});
+$("#green_background").click(function(){
+    $("body").css({"background-color":"green"});
+});
